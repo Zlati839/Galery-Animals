@@ -26,7 +26,7 @@ if st.session_state.animal:
 
 names = []
 for a in st.session_state.animals:
-  names.append(a["name"})
+  names.append(a["name"])
 remove_name = st.selectbox("The image has been removed")
 if st.button("remove"):
   for a in st.session_state.animals:
