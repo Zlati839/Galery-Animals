@@ -13,7 +13,7 @@ image_url = st.text_input("Url of the picture")
 if st.button("ADD"):
   if name and description and image_url:
     st.session_state.animals.append({
-      ,"name:"name,
+      "name:",name,
       "description:", description,
       "photo:",image_url
     })
