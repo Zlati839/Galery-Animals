@@ -21,7 +21,7 @@ if st.button("ADD"):
   else:
     st.warning("Fill all the things")
 
-if st.session_state.animal:
+if st.session_state.animals:
   st.header("Remove an animal")
 
 names = []
