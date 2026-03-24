@@ -41,5 +41,3 @@ if st.button("remove"):
 st.header("galery")
 if st.session_state.animals:
   cols = st.columns(3)
-  for idx , animal in enumerate(st.session_state.animals):
-    with cols[idx % 3]:
